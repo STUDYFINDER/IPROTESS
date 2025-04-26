@@ -1,0 +1,94 @@
+.collection-section {
+  padding: 3rem 2rem;
+  background-color: #ffffff;
+  color: #111;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.collection-title {
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: 0.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  color: #111;
+}
+
+.collection-controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.collection-controls select {
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background: #f9f9f9;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  padding: 2rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.15);
+}
+
+.product-card img, .product-card .product-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1.5rem;
+  border-radius: 1rem;
+}
+
+.product-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: #111;
+}
+
+.product-card p {
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
+  color: #555;
+}
+
+.product-card .price {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.add-to-cart-btn {
+  margin-top: 1rem;
+  background: #111;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.add-to-cart-btn:hover {
+  background: #f0c040;
+  color: #111;
+}
